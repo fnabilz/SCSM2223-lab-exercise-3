@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>⛅ Weather</title> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Create a search bar at the top with a text input and Search button -->
+        <div class="search-bar">
+            <label for="input"></label>
+            <input type="text" id="input">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div class="weather-card skeleton">
+            <div class="weather-header">
+                <h2 class="city-name">⛅ Kuala Lumpur, MY</h2>
+                <p class="current-time">Monday, 10:00 AM</p>
+            </div>
+
+            <div class="weather-main">
+                <div class="temp-container">
+                    <span class="temperature">28°C</span>
+                    <p class="description">Cloudy</p>
+                </div>
+            </div>
+
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span class="label">Humidity</span>
+                    <span class="value">75%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Wind Speed</span>
+                    <span class="value">12 km/h</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="forecast-container">
+            <div class="forecast-card skeleton" id="monday">
+                <p class="day">Mon</p>
+                    <span class="weather-icon">⛈️</span>
+                <p class="temp">
+                    <span class="high">33°</span>
+                    <span class="low">24°</span>
+                </p>
+            </div>
+            
+            <div class="forecast-card skeleton" id="tuesday">
+                <p class="day">Tue</p>
+                    <span class="weather-icon">🌧️</span>
+                <p class="temp">
+                    <span class="high">32°</span> 
+                    <span class="low">24°</span>
+                </p>
+            </div>
+
+            <div class="forecast-card skeleton" id="wednesday">
+                <p class="day">Wed</p>
+                    <span class="weather-icon">⛈️</span>
+                <p class="temp">
+                    <span class="high">33°</span>
+                    <span class="low">24°</span>
+                </p>
+            </div>
+            
+            <div class="forecast-card skeleton" id="thursday">
+                <p class="day">Thu</p>
+                    <span class="weather-icon">🌧️</span>
+                <p class="temp">
+                    <span class="high">32°</span> 
+                    <span class="low">24°</span>
+                </p>
+            </div>
+
+            <div class="forecast-card skeleton" id="friday">
+                <p class="day">Fri</p>
+                    <span class="weather-icon">⛈️</span>
+                <p class="temp">
+                    <span class="high">33°</span>
+                    <span class="low">24°</span>
+                </p>
+            </div>
+            
+            <div class="forecast-card skeleton" id="saturday">
+                <p class="day">Sat</p>
+                    <span class="weather-icon">🌧️</span>
+                <p class="temp">
+                    <span class="high">32°</span> 
+                    <span class="low">24°</span>
+                </p>
+            </div>
+
+             <div class="forecast-card skeleton" id="sunday">
+                <p class="day">Sun</p>
+                    <span class="weather-icon">🌧️</span>
+                <p class="temp">
+                    <span class="high">32°</span> 
+                    <span class="low">24°</span>
+                </p>
+            </div>
+        
+        </div>
+
+    </body>
+</html>
