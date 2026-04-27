@@ -19,6 +19,24 @@ body {
     padding: 10px;
 }
 
+#error-banner {
+    display: none; 
+    background: #ff4d4d; 
+    color: white; 
+    padding: 1rem; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#retry-button {
+    background: white; 
+    color: #ff4d4d; 
+    border: none; 
+    padding: 5px 15px; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+
 .weather-card {
     background: white;
     border-radius: 20px;
@@ -55,7 +73,6 @@ body {
 .weather-details {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #eeeeee;
   padding-top: 1.5rem;
 }
 
